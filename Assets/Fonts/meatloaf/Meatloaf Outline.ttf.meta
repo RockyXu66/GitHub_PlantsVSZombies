@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1831d1466cd4a4e61b5cb709361a16c0
+timeCreated: 1508051594
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: meatloaf outline
+  fontNames:
+  - meatloaf outline
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

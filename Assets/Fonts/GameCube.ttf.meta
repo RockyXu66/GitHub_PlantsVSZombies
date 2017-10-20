@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 67ecd0839f0c54f30b983794e611ab1b
+timeCreated: 1508051418
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: GAMECUBEN
+  fontNames:
+  - GAMECUBEN
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
