@@ -8,11 +8,11 @@ public class AttackerSpawner : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        foreach(GameObject attacker in attackerPrefabArray){
-            if(isTimeToSpawn(attacker)){
-                Spawn(attacker);
-            }
-        }
+        //foreach(GameObject attacker in attackerPrefabArray){
+        //    if(isTimeToSpawn(attacker)){
+        //        Spawn(attacker);
+        //    }
+        //}
 	}
 
     bool isTimeToSpawn(GameObject obj){

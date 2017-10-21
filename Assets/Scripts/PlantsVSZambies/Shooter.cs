@@ -12,6 +12,8 @@ public class Shooter : MonoBehaviour {
 
     private AttackerSpawner myLaneSpawner;
 
+    //public static bool resetMyLaneSpawner = false;
+
     private void Start()
     {
         
@@ -35,6 +37,11 @@ public class Shooter : MonoBehaviour {
         }else{
             anim.SetBool("IsAttacked", false);
         }
+
+        //if(AttackerGroups.resetMyLaneSpawner){
+              SetMyLaneSpawner();
+        //    AttackerGroups.resetMyLaneSpawner = false;
+        //}
     }
 
     private void Fire(){
@@ -44,7 +51,7 @@ public class Shooter : MonoBehaviour {
     }
 
     // Find all lanes spawner and find this lane's spawner
-    private void SetMyLaneSpawner(){
+    public void SetMyLaneSpawner(){
         AttackerSpawner[] allLanesSpawner = FindObjectsOfType<AttackerSpawner>();
         foreach(AttackerSpawner spawner in allLanesSpawner){
             // Shooter and my lane spawner has same y position
@@ -66,7 +73,7 @@ public class Shooter : MonoBehaviour {
         // If there are attackers, are they ahead?
         foreach (Transform attacker in myLaneSpawner.transform){
             Vector3 pos = attacker.transform.position;
-            if(pos.x > transform.position.x){
+            if (pos.x > transform.position.x && pos.x < 11.0f){
                 return true;
             }
         }
@@ -84,3 +91,11 @@ public class Shooter : MonoBehaviour {
     }
 
 }
+
+//          Lizard   Fox
+// health      30     40
+// attack      10     15
+
+//          Trophy   Cactus   Gnome  Stone
+// health      20      30       40     50
+// attack              10       15  

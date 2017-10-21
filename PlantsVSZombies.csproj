@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlantsVSZambies\Attacker.cs" />
+    <Compile Include="Assets\Scripts\PlantsVSZambies\AttackerGroups.cs" />
     <Compile Include="Assets\Scripts\PlantsVSZambies\AttackerSpawner.cs" />
     <Compile Include="Assets\Scripts\PlantsVSZambies\Defender.cs" />
     <Compile Include="Assets\Scripts\PlantsVSZambies\DefenderSpawner.cs" />
